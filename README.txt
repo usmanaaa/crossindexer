@@ -1,13 +1,13 @@
-Usman Amin and Ahmed Boutar
+Usman Amin
 CSC254
 November 6, 2020
-NETID: uamin2 NETID: abiurar
+
 ----- CONTENT -----
 xref - Main program to execute. Outputs html to a file called out.html in subdirectory XREF. Written in Ruby.
 XREF - subdirectory that contains:
     home.html - Launch this to get homepage containing link to cross-referenced code
     [out.html]
-test.rs - example file for testing. Combination of both main.rs and fib.rs that was given by the TA Daniel Busaba.
+test.rs - example file for testing.
 
 
 ----- FEATURES -----
