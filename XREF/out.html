@@ -1,0 +1,4466 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset = "utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<title>My site</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7200" href="#address7200">7200:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 83 ec 28
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+sub
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x28,%rsp
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7204" href="#address7204">7204:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 7c 24 24
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%edi,0x24(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">use std::env;
+
+pub fn fib(n: i32) -> i32 {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7208" href="#address7208">7208:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+83 ff 02
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+cmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x2,%edi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address720b" href="#address720b">720b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 7c 24 1c
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%edi,0x1c(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address720f" href="#address720f">720f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+7c 15
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jl
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7226">7226 <_ZN4main3fib17ha84668b52caa9c18E+0x26></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">    if n < 2 {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7215" href="#address7215">7215:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+83 e8 02
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+sub
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x2,%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7218" href="#address7218">7218:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 90 c1
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+seto
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address721b" href="#address721b">721b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+f6 c1 01
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+test
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address721e" href="#address721e">721e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 18
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x18(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7222" href="#address7222">7222:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+75 5f
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jne
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7283">7283 <_ZN4main3fib17ha84668b52caa9c18E+0x83></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7224" href="#address7224">7224:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 0a
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7230">7230 <_ZN4main3fib17ha84668b52caa9c18E+0x30></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">    } else {
+        fib(n - 2) + fib (n - 1)
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address722a" href="#address722a">722a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 20
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x20(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">        n
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address722e" href="#address722e">722e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 4a
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address727a">727a <_ZN4main3fib17ha84668b52caa9c18E+0x7a></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    if n < 2 {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7234" href="#address7234">7234:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 c7 ff ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7200">7200 <_ZN4main3fib17ha84668b52caa9c18E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7239" href="#address7239">7239:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 14
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x14(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7241" href="#address7241">7241:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff c8
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+dec
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7243" href="#address7243">7243:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 90 c1
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+seto
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7246" href="#address7246">7246:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+f6 c1 01
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+test
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7249" href="#address7249">7249:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 10
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x10(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address724d" href="#address724d">724d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+75 52
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jne
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address72a1">72a1 <_ZN4main3fib17ha84668b52caa9c18E+0xa1></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7253" href="#address7253">7253:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 a8 ff ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7200">7200 <_ZN4main3fib17ha84668b52caa9c18E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7258" href="#address7258">7258:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 0c
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0xc(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7264" href="#address7264">7264:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+01 c8
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+add
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%ecx,%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7266" href="#address7266">7266:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 90 c2
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+seto
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%dl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7269" href="#address7269">7269:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+f6 c2 01
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+test
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,%dl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address726c" href="#address726c">726c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 08
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x8(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7270" href="#address7270">7270:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+75 4d
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jne
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address72bf">72bf <_ZN4main3fib17ha84668b52caa9c18E+0xbf></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7276" href="#address7276">7276:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 20
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x20(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    } else {
+        fib(n - 2) + fib (n - 1)
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address727a" href="#address727a">727a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+8b 44 24 20
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x20(%rsp),%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address727e" href="#address727e">727e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 83 c4 28
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+add
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x28,%rsp
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7282" href="#address7282">7282:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c3
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+retq
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">}
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7283" href="#address7283">7283:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 3d 16 1e 03 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x31e16(%rip),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 390a0 <str.0>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address728a" href="#address728a">728a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 15 af 01 04 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x401af(%rip),%rdx
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 47440 <__dso_handle+0x88>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7291" href="#address7291">7291:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 05 78 c0 02 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x2c078(%rip),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 33310 <_ZN4core9panicking5panic17h49577d7675e529f3E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7298" href="#address7298">7298:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+be 21 00 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x21,%esi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address729d" href="#address729d">729d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address729f" href="#address729f">729f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72a1" href="#address72a1">72a1:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 3d f8 1d 03 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x31df8(%rip),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 390a0 <str.0>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72a8" href="#address72a8">72a8:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 15 a9 01 04 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x401a9(%rip),%rdx
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 47458 <__dso_handle+0xa0>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72af" href="#address72af">72af:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 05 5a c0 02 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x2c05a(%rip),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 33310 <_ZN4core9panicking5panic17h49577d7675e529f3E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72b6" href="#address72b6">72b6:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+be 21 00 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x21,%esi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72bb" href="#address72bb">72bb:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72bd" href="#address72bd">72bd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72bf" href="#address72bf">72bf:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 3d 0a 1e 03 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x31e0a(%rip),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 390d0 <str.1>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72c6" href="#address72c6">72c6:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 15 a3 01 04 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x401a3(%rip),%rdx
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 47470 <__dso_handle+0xb8>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72cd" href="#address72cd">72cd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 05 3c c0 02 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x2c03c(%rip),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 33310 <_ZN4core9panicking5panic17h49577d7675e529f3E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72d4" href="#address72d4">72d4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+be 1c 00 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1c,%esi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72d9" href="#address72d9">72d9:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72db" href="#address72db">72db:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72dd" href="#address72dd">72dd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 1f 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+nopl
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+(%rax)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a href="#address0000">00000000000072e0 <_ZN4main4main17h2d6c3d678af9e020E>:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    } else {
+        fib(n - 2) + fib (n - 1)
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address72e0" href="#address72e0">72e0:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 81 ec a8 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+sub
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1a8,%rsp
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">
+fn main() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address72e7" href="#address72e7">72e7:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72ee" href="#address72ee">72ee:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72ef" href="#address72ef">72ef:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 7c 24 60
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x60(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72f4" href="#address72f4">72f4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff 15 86 2a 04 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*0x42a86(%rip)
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 49d80 <_GLOBAL_OFFSET_TABLE_+0x448>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address72fa" href="#address72fa">72fa:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 0f
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address730b">730b <_ZN4main4main17h2d6c3d678af9e020E+0x2b></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">    for argument in env::args() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address72fc" href="#address72fc">72fc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b bc 24 80 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x180(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7303" href="#address7303">7303:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7304" href="#address7304">7304:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 77 ed ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6080">6080 <_Unwind_Resume@plt></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7309" href="#address7309">7309:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">
+fn main() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address730b" href="#address730b">730b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 7c 24 40
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x40(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7310" href="#address7310">7310:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 74 24 60
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x60(%rsp),%rsi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7315" href="#address7315">7315:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 c6 08 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7be0">7be0 <_ZN63_$LT$I$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$9into_iter17hfa980db0bafa0ca0E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address731a" href="#address731a">731a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 44 24 40
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x40(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address731f" href="#address731f">731f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 80 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x80(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7326" href="#address7326">7326:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7327" href="#address7327">7327:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 44 24 48
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x48(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address732c" href="#address732c">732c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 88 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x88(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7333" href="#address7333">7333:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7334" href="#address7334">7334:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 44 24 50
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x50(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7339" href="#address7339">7339:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 90 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x90(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7340" href="#address7340">7340:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7341" href="#address7341">7341:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 44 24 58
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x58(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7346" href="#address7346">7346:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 98 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x98(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address734d" href="#address734d">734d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address734e" href="#address734e">734e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 05 0b fd 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xfd0b(%rip),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 17060 <_ZN73_$LT$std..env..Args$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17he05dd6a796ebd410E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7355" href="#address7355">7355:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 b8 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xb8(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address735c" href="#address735c">735c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address735d" href="#address735d">735d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d b4 24 80 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x80(%rsp),%rsi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7364" href="#address7364">7364:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7365" href="#address7365">7365:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7367" href="#address7367">7367:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 0f
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7378">7378 <_ZN4main4main17h2d6c3d678af9e020E+0x98></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    for argument in env::args() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7369" href="#address7369">7369:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 80 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x80(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7370" href="#address7370">7370:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7371" href="#address7371">7371:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 3a fb ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6eb0">6eb0 <_ZN4core3ptr13drop_in_place17hc903f4d8f2093677E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7376" href="#address7376">7376:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 84
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address72fc">72fc <_ZN4main4main17h2d6c3d678af9e020E+0x1c></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">    }
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7378" href="#address7378">7378:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 84 24 b8 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xb8(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address737f" href="#address737f">737f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7380" href="#address7380">7380:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 85 c0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+test
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7383" href="#address7383">7383:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 95 c1
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+setne
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7386" href="#address7386">7386:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f b6 d1
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movzbl %cl,%edx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7389" href="#address7389">7389:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%edx,%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address738b" href="#address738b">738b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+74 04
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+je
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7391">7391 <_ZN4main4main17h2d6c3d678af9e020E+0xb1></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address738d" href="#address738d">738d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address738f">738f <_ZN4main4main17h2d6c3d678af9e020E+0xaf></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address738f" href="#address738f">738f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 1c
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address73ad">73ad <_ZN4main4main17h2d6c3d678af9e020E+0xcd></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    for argument in env::args() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7391" href="#address7391">7391:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7398" href="#address7398">7398:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7399" href="#address7399">7399:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 80 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x80(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73a0" href="#address73a0">73a0:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73a1" href="#address73a1">73a1:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 0a fb ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6eb0">6eb0 <_ZN4core3ptr13drop_in_place17hc903f4d8f2093677E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73a6" href="#address73a6">73a6:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 05 02 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address75b0">75b0 <_ZN4main4main17h2d6c3d678af9e020E+0x2d0></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    }
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address73ab" href="#address73ab">73ab:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73ad" href="#address73ad">73ad:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 84 24 c8 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xc8(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73b4" href="#address73b4">73b4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73b5" href="#address73b5">73b5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 e0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0xe0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73bc" href="#address73bc">73bc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73bd" href="#address73bd">73bd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 10 84 24 b8 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movups 0xb8(%rsp),%xmm0
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73c4" href="#address73c4">73c4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73c5" href="#address73c5">73c5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 29 84 24 d0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps %xmm0,0xd0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73cc" href="#address73cc">73cc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73cd" href="#address73cd">73cd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 84 24 e0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xe0(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73d4" href="#address73d4">73d4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73d5" href="#address73d5">73d5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 00 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x100(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73dc" href="#address73dc">73dc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73dd" href="#address73dd">73dd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 28 84 24 d0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps 0xd0(%rsp),%xmm0
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73e4" href="#address73e4">73e4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73e5" href="#address73e5">73e5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 29 84 24 f0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps %xmm0,0xf0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73ec" href="#address73ec">73ec:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73ed" href="#address73ed">73ed:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73f4" href="#address73f4">73f4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+01
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73f5" href="#address73f5">73f5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 84 24 00 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x100(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73fc" href="#address73fc">73fc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address73fd" href="#address73fd">73fd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 b0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0xb0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7404" href="#address7404">7404:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7405" href="#address7405">7405:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 28 84 24 f0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps 0xf0(%rsp),%xmm0
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address740c" href="#address740c">740c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address740d" href="#address740d">740d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 29 84 24 a0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps %xmm0,0xa0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7414" href="#address7414">7414:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7415" href="#address7415">7415:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address741c" href="#address741c">741c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address741d" href="#address741d">741d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 84 24 b0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xb0(%rsp),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7424" href="#address7424">7424:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7425" href="#address7425">7425:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 20 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x120(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address742c" href="#address742c">742c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address742d" href="#address742d">742d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 28 84 24 a0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps 0xa0(%rsp),%xmm0
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7434" href="#address7434">7434:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7435" href="#address7435">7435:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 29 84 24 10 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movaps %xmm0,0x110(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address743c" href="#address743c">743c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address743d" href="#address743d">743d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 10 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x110(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7444" href="#address7444">7444:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    for argument in env::args() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7445" href="#address7445">7445:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 96 fb ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6fe0">6fe0 <_ZN65_$LT$alloc..string..String$u20$as$u20$core..ops..deref..Deref$GT$5deref17ha7212e55269e06bdE></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address744a" href="#address744a">744a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 54 24 38
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rdx,0x38(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address744f" href="#address744f">744f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 44 24 30
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x30(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7454" href="#address7454">7454:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7456">7456 <_ZN4main4main17h2d6c3d678af9e020E+0x176></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7460" href="#address7460">7460:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 5b fd ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address71c0">71c0 <_ZN4core3str21_$LT$impl$u20$str$GT$5parse17h15107983cf7f8360E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7465" href="#address7465">7465:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 44 24 28
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x28(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address746a" href="#address746a">746a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 12
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address747e">747e <_ZN4main4main17h2d6c3d678af9e020E+0x19e></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">        let number: i32 = match argument.parse() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address746c" href="#address746c">746c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 10 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x110(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7473" href="#address7473">7473:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7474" href="#address7474">7474:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 e7 f9 ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6e60">6e60 <_ZN4core3ptr13drop_in_place17h9e196e266cbec7f7E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7479" href="#address7479">7479:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 54 01 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address75d2">75d2 <_ZN4main4main17h2d6c3d678af9e020E+0x2f2></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    }
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address7483" href="#address7483">7483:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 90 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x190(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address748a" href="#address748a">748a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address748b" href="#address748b">748b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 8c 24 90 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x190(%rsp),%rcx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7492" href="#address7492">7492:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7493" href="#address7493">7493:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 8c 24 28 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rcx,0x128(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address749a" href="#address749a">749a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">        let number: i32 = match argument.parse() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address749b" href="#address749b">749b:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f b6 94 24 28 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movzbl 0x128(%rsp),%edx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74a2" href="#address74a2">74a2:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74a3" href="#address74a3">74a3:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 d1
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%edx,%ecx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74a5" href="#address74a5">74a5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+f6 c1 01
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+test
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,%cl
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74a8" href="#address74a8">74a8:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+74 06
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+je
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address74b0">74b0 <_ZN4main4main17h2d6c3d678af9e020E+0x1d0></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74aa" href="#address74aa">74aa:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address74ac">74ac <_ZN4main4main17h2d6c3d678af9e020E+0x1cc></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74ac" href="#address74ac">74ac:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 30
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address74de">74de <_ZN4main4main17h2d6c3d678af9e020E+0x1fe></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">            Ok(n) => n,
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74ae" href="#address74ae">74ae:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0f 0b
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ud2
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">        let number: i32 = match argument.parse() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74b0" href="#address74b0">74b0:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+8b 84 24 2c 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x12c(%rsp),%eax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74b7" href="#address74b7">74b7:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 84 24 98 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x198(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74be" href="#address74be">74be:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 84 24 9c 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x19c(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">            Ok(n) => n,
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74c5" href="#address74c5">74c5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 35 dc ff 03 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x3ffdc(%rip),%rsi
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 474a8 <__dso_handle+0xf0>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74cc" href="#address74cc">74cc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 c7
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,%edi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74ce" href="#address74ce">74ce:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 74 24 20
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rsi,0x20(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74d3" href="#address74d3">74d3:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 28 fd ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7200">7200 <_ZN4main3fib17ha84668b52caa9c18E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74d8" href="#address74d8">74d8:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 44 24 1c
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x1c(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74dc" href="#address74dc">74dc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 1c
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address74fa">74fa <_ZN4main4main17h2d6c3d678af9e020E+0x21a></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">        };
+        println!("{}", fib(number));
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74e6" href="#address74e6">74e6:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 75 f9 ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6e60">6e60 <_ZN4core3ptr13drop_in_place17h9e196e266cbec7f7E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74eb" href="#address74eb">74eb:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address74ed">74ed <_ZN4main4main17h2d6c3d678af9e020E+0x20d></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74ed" href="#address74ed">74ed:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address74f4" href="#address74f4">74f4:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    }
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74f5" href="#address74f5">74f5:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 54 fe ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address734e">734e <_ZN4main4main17h2d6c3d678af9e020E+0x6e></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md">            Err(_) => continue,
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address74fe" href="#address74fe">74fe:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+89 84 24 78 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%eax,0x178(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7505" href="#address7505">7505:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 8c 24 78 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x178(%rsp),%rcx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address750c" href="#address750c">750c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address750d" href="#address750d">750d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 8c 24 70 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rcx,0x170(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7514" href="#address7514">7514:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7515" href="#address7515">7515:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 8c 24 70 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x170(%rsp),%rcx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address751c" href="#address751c">751c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address751d" href="#address751d">751d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 8c 24 a0 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rcx,0x1a0(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7524" href="#address7524">7524:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7525" href="#address7525">7525:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 35 b4 04 03 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x304b4(%rip),%rsi
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 379e0 <_ZN4core3fmt3num3imp52_$LT$impl$u20$core..fmt..Display$u20$for$u20$i32$GT$3fmt17h87753a9a5e7fa689E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address752c" href="#address752c">752c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 cf
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rcx,%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address752f" href="#address752f">752f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 2c 05 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7a60">7a60 <_ZN4core3fmt10ArgumentV13new17h9877e8897df3aed7E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7534" href="#address7534">7534:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 54 24 10
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rdx,0x10(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7539" href="#address7539">7539:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 44 24 08
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x8(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address753e" href="#address753e">753e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7540">7540 <_ZN4main4main17h2d6c3d678af9e020E+0x260></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7545" href="#address7545">7545:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 84 24 60 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rax,0x160(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address754c" href="#address754c">754c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address754d" href="#address754d">754d:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 4c 24 10
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x10(%rsp),%rcx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7552" href="#address7552">7552:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 89 8c 24 68 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+%rcx,0x168(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7559" href="#address7559">7559:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address755a" href="#address755a">755a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 30 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x130(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7561" href="#address7561">7561:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7562" href="#address7562">7562:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ba 02 00 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x2,%edx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7567" href="#address7567">7567:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 8c 24 60 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x160(%rsp),%rcx
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address756e" href="#address756e">756e:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address756f" href="#address756f">756f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+41 b8 01 00 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,%r8d
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7575" href="#address7575">7575:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8b 74 24 20
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+mov
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x20(%rsp),%rsi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address757a" href="#address757a">757a:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 41 05 00 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7ac0">7ac0 <_ZN4core3fmt9Arguments6new_v117h46a93cbea10a9c02E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address757f" href="#address757f">757f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7581">7581 <_ZN4main4main17h2d6c3d678af9e020E+0x2a1></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7581" href="#address7581">7581:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d 05 48 14 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x11448(%rip),%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+# 189d0 <_ZN3std2io5stdio6_print17h74590ce298cc2720E>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7588" href="#address7588">7588:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 30 01 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0x130(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address758f" href="#address758f">758f:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7590" href="#address7590">7590:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+ff d0
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+*%rax
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address7592" href="#address7592">7592:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7594">7594 <_ZN4main4main17h2d6c3d678af9e020E+0x2b4></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">        };
+        println!("{}", fib(number));
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address759c" href="#address759c">759c:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 bf f8 ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6e60">6e60 <_ZN4core3ptr13drop_in_place17h9e196e266cbec7f7E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75a1" href="#address75a1">75a1:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+eb 00
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmp
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address75a3">75a3 <_ZN4main4main17h2d6c3d678af9e020E+0x2c3></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75a3" href="#address75a3">75a3:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75aa" href="#address75aa">75aa:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    }
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address75ab" href="#address75ab">75ab:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 9e fd ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address734e">734e <_ZN4main4main17h2d6c3d678af9e020E+0x6e></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    for argument in env::args() {
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address75b0" href="#address75b0">75b0:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 81 c4 a8 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+add
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1a8,%rsp
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75b7" href="#address75b7">75b7:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c3
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+retq
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">}
+</div>
+</div>
+</div>
+<span><br></span>
+<div class="container">
+<div class="row border">
+<ul class="container col-lg">
+<li class="row border">
+<span>
+<a name="address75b8" href="#address75b8">75b8:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+c6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+movb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x0,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75bf" href="#address75bf">75bf:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75c0" href="#address75c0">75c0:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+48 8d bc 24 a0 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+lea
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+0xa0(%rsp),%rdi
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75c7" href="#address75c7">75c7:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+00
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75c8" href="#address75c8">75c8:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e8 93 f8 ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+callq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address6e60">6e60 <_ZN4core3ptr13drop_in_place17h9e196e266cbec7f7E></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75cd" href="#address75cd">75cd:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 97 fd ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7369">7369 <_ZN4main4main17h2d6c3d678af9e020E+0x89></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75d2" href="#address75d2">75d2:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+f6 84 24 7f 01 00 00 
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+testb
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+$0x1,0x17f(%rsp)
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75d9" href="#address75d9">75d9:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+01
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75da" href="#address75da">75da:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+75 dc
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jne
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address75b8">75b8 <_ZN4main4main17h2d6c3d678af9e020E+0x2d8></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+<li class="row border">
+<span>
+<a name="address75dc" href="#address75dc">75dc:</a>
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+e9 88 fd ff ff
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+jmpq
+</span>
+<span>&nbsp;&nbsp;</span>
+<span>
+<a href="#address7369">7369 <_ZN4main4main17h2d6c3d678af9e020E+0x89></a>
+</span>
+<span>&nbsp;&nbsp;</span>
+</li>
+</ul>
+<div class="border col-md text-info bg-light">    }
+</div>
+</div>
+</div>
+<span><br></span>
+</body>
+</html>
+
